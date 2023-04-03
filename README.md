@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Awesome-books </b></h3>
+  <h3><b>To-Do-List </b></h3>
 
 </div>
 
@@ -10,25 +10,25 @@
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 My Portfolio ](#-my-portfolio-)
+  - [:hammer\_and\_wrench: Built With ](#hammer_and_wrench-built-with-)
+    - [Tech Stack ](#tech-stack-)
+  - [Key Features ](#key-features-)
+  - [🚀 Live Demo ](#-live-demo-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Run tests](#run-tests)
+    - [Deployment](#deployment)
+  - [:busts\_in\_silhouette: Authors ](#busts_in_silhouette-authors-)
+  - [Future Features ](#future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
@@ -36,7 +36,7 @@
 
 This project is built with HTML, CSS & JavaScript
 
-**Awesome-books** is a simple project that allows users to add or remove books from a list, built with ES6 Features.
+**To-Do-List** is a simple To Do List project that lists the things that you need to do and allows you to mark them as complete.
 
 ## :hammer_and_wrench: Built With <a name="built-with"></a>
 - HTML
@@ -70,8 +70,10 @@ This project is built with HTML, CSS & JavaScript
 
 - **Linters SetUp**
 - **Follow HTML, CSS and JavaScript best practices**
-- **Add a books to a list of books**
-- **Remove a books from a list of books**
+- **Add a task to a list of existing todos**
+- **Remove a task from the list**
+- **Mark a selected task as complete**
+- **Remove all items marked as complete at once**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -79,8 +81,9 @@ This project is built with HTML, CSS & JavaScript
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rosemutai.github.io/Awesome-books/)
+- [Live Demo Link](https://rosemutai.github.io/To-Do-List/dist/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -106,7 +109,7 @@ Example command:
  -->
 ### Setup
 
-Go to github and find the repository with Awesome-books
+Go to github and find the repository with To-Do-List
 Click on code and copy then go to your gitbash cli on your computer Clone this repository to your desired folder
 
 <!--
@@ -114,7 +117,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:rosemutai/Awesome-books.git
+  git clone git@github.com:rosemutai/To-Do-List.git
 ```
 --->
 ### Install
@@ -142,21 +145,21 @@ You can deploy this project using:
 GitHub Pages
 Example:
 ```sh
-git@github.com:rosemutai/Awesome-books.git
+git@github.com:rosemutai/To-Do-List.git
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## :busts_in_silhouette: Authors <a name="authors"></a>
 :bust_in_silhouette: **ROSE MUTAI**
 - GitHub: [rosemutai](https://github.com/rosemutai)
-- Twitter: [__rosemutai](https://twitter.com/__rosemutai)
+- Twitter: [__rosemutai](https://twitter.com/__chepngetich)
 - LinkedIn: [Rose Mutai](https://www.linkedin.com/in/rosemutai/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 ## Future Features <a name="future-features"></a>
 
-- [ ] **Make the projecto responsive**<br/>
+- [ ] **Add a drag and drop feature**<br/>
 - [ ] **Add Animation**<br/>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -164,7 +167,7 @@ git@github.com:rosemutai/Awesome-books.git
 <!-- CONTRIBUTING -->
 ## 🤝 Contributing <a name="contributing"></a>
 Contributions, issues, and feature requests are welcome!<br/>
-Feel free to check the [https://github.com/rosemutai/Awesome-books/issues.
+Feel free to check the [https://github.com/rosemutai/To-Do-List/issues.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->

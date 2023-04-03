@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(236, 236, 236);
+  font-family: 'Roboto', sans-serif;
+}
+
+.todos-section {
+  padding-top: 8px;
+  width: 40%;
+  margin: 2rem auto;
+  box-shadow: 4px 4px 12px #808080;
+}
+
+.title {
+  margin: 24px auto 12px auto;
+  padding: 0 12px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title h4,
+.title span {
+  color: rgba(43, 43, 43, 0.6);
+  font-weight: 500;
+}
+
+.title span {
+  margin-left: auto;
+  text-align: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48;
+  color: rgba(43, 43, 43, 0.6);
+}
+
+.delete-btn {
+  margin-left: auto;
+  text-align: center;
+  padding-top: 12px;
+}
+
+form {
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+form.add button {
+  border: none;
+  background-color: #fff;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+form input,
+button.clear-btn {
+  padding: 12px;
+  width: 100%;
+  background-color: #fff;
+  border: transparent;
+  color: rgba(43, 43, 43, 0.6);
+}
+
+ul {
+  margin-left: 0;
+}
+
+form input {
+  margin-bottom: 5px;
+}
+
+form input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-style: italic;
+}
+
+.completed {
+  color: rgba(43, 43, 43, 0.4);
+  text-decoration: line-through;
+}
+
+button.clear-btn {
+  background-color: rgb(236, 236, 236);
+  letter-spacing: 1px;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  background-color: #fff;
+  width: 95%;
+  padding: 12px;
+  margin-left: 0;
+  margin-right: 12px;
+  margin-bottom: 5px;
+  color: rgba(43, 43, 43, 0.9);
+}
+
+li:hover {
+  background-color: rgba(248, 208, 99, 0.3);
+}
+
+.task-description {
+  outline: 0;
+  background-color: inherit;
+  margin: 0 auto;
+  width: 100%;
+  border: transparent;
+  height: inherit;
+}
+
+.task-description:hover {
+  background-color: rgba(248, 208, 99, 0.3);
+}
